@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  angul:
+    image: ${DOCKER_REGISTRY-}angul
+    build:
+      context: .
+      dockerfile: Angul\Dockerfile
